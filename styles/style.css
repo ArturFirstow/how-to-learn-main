@@ -98,7 +98,7 @@
   justify-content: space-between;
   width:80%;
   position: relative;
-  margin:auto
+  margin:auto;
 }
 
 .description p {
@@ -193,7 +193,7 @@
   background-image: url(../images/feynman.png);
   position: relative;
   margin-bottom:50px;
-  padding-top:80px; 
+  padding-top:80px;
   background-color: #F2F2F2;
   height:790px;
   background-position: left bottom;
@@ -309,7 +309,7 @@
 .footer__social-icons {
   position: relative;
   width:16px;
-  height:16px; 
+  height:16px;
   background-size: contain;
 }
 
@@ -358,5 +358,5 @@
 
 ul {
   padding-left: 0;
-  margin:auto
+  margin:auto;
 }
