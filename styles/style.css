@@ -110,10 +110,11 @@ a {
 }
 
 .two-columns__brief {
-  flex-basis: 175px;
+  flex-basis: 200px;
   color: #2F80ED;
   line-height:1.2;
   font-size:18px;
+
 }
 
 .two-columns__main-text {
@@ -303,7 +304,6 @@ a {
   font-size: 18px;
   margin: 18px 0 18px;
   line-height: 25px;
-  font-size: 18px;
 }
 
 .footer__column_heading {
