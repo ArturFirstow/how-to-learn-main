@@ -1,4 +1,3 @@
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -7,28 +6,28 @@
 }
 
 .header {
-  display:flex;
+  display: flex;
   position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color:#F2F2F2;
-  margin-bottom:100px;
+  background-color: #F2F2F2;
+  margin-bottom: 100px;
 }
 
 .logo {
-  background-position:center;
-  background-size:contain;
-  background-image:url(../images/logo_place_header.svg);
+  background-position: center;
+  background-size: contain;
+  background-image: url(../images/logo_place_header.svg);
   background-repeat: no-repeat;
 }
 
 .logo_place_header {
-  position:absolute;
-  width:183px;
-  height:32px;
-  top:30px;
-  left:64px;
+  position: absolute;
+  width: 183px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
@@ -54,140 +53,140 @@
 }
 
 .header__link::after {
-  content:'\2192';
+  content: '\2192';
 }
 
-.header__link{
-  color:#2F80ED;
+.header__link {
+  color: #2F80ED;
   text-decoration: none;
 }
 
 .header__main-illustration {
   position: absolute;
-  right:0;
-  bottom:0;
-  width:765px;
-  height:608px;
-  z-index:1;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
 }
 
 .header__square-pic {
   position: absolute;
   height: 568px;
   width: 568px;
-  top:64px;
-  right:0;
-  background-color:#2F80ED;
+  top: 64px;
+  right: 0;
+  background-color: #2F80ED;
 }
 
 .description {
-  margin-top:100px;
-  margin-bottom:100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
-  font-size:24px;
+  font-size: 24px;
   line-height: 34px;
 }
 
 .two-columns {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width:80%;
-  margin:auto;
+  width: 80%;
+  margin: auto;
 }
 
 .two-columns__brief {
   margin: 0;
   width: 175px;
   color: #2F80ED;
-  line-height:1.2;
-  font-size:18px;
+  line-height: 1.2;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .two-columns__main-text {
   flex-basis: 80%;
   min-width: 784px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.two-columns__paragraph{
+.two-columns__paragraph {
   margin: 0;
-  font-size:24px;
-  line-height:34px;
-  margin-bottom:30px;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 30px;
 }
 
-.digits{
-  margin-top:100px;
-  margin-bottom:100px;
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
   padding: 0;
   margin-top: 0;
   margin-bottom: 20px;
-  width:60%;
+  width: 60%;
   line-height: 69px;
-  font-size:60px;
+  font-size: 60px;
   font-weight: bold;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 .section-subtitle {
   margin: 0;
   padding: 0;
-  width:60%;
+  width: 60%;
   line-height: 34px;
-  font-size:24px;
+  font-size: 24px;
   text-align: center;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .table {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin-left: auto;
-  margin-right:auto;
-  width:1100px;
+  margin-right: auto;
+  width: 1100px;
   justify-content: space-between;
 }
 
 .digits__table {
-  margin-top:0;
+  margin-top: 0;
 }
 
 .table__heading {
   line-height: 1.15;
-  font-size:24px;
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom:20px;
-  margin-top:0;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .table__text {
   margin-bottom: 0;
-  margin-top:20px;
-  line-height:1.2;
-  font-size:18px;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 .table__cell {
-  width:250px;
+  width: 250px;
   margin-top: 60px;
 }
 
 .feynman {
-  padding-top:100px;
+  padding-top: 100px;
   background-color: #F2F2F2;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
@@ -199,20 +198,20 @@
 
 
 .feynman__title {
-  line-height:1.15;
+  line-height: 1.15;
   text-align: center;
-  font-size:120px;
+  font-size: 120px;
   font-weight: bold;
-  width:648px;
+  width: 648px;
   margin: 0 auto;
-  margin-bottom:70px;
+  margin-bottom: 70px;
 }
 
 .feynman__subtitle {
   margin: 0;
   padding: 0;
-  line-height:51px;
-  font-size:36px;
+  line-height: 51px;
+  font-size: 36px;
   text-align: center;
   font-weight: normal;
 }
@@ -220,49 +219,49 @@
 .feynman__link {
   position: absolute;
   top: 46%;
-  line-height:51px;
-  font-size:36px;
-  right:48px;
-  color:rgb(90, 92, 247);
+  line-height: 51px;
+  font-size: 36px;
+  right: 48px;
+  color: rgb(90, 92, 247);
   text-decoration: none;
 }
 
 .kaufman {
-  padding-bottom:90px;
+  padding-bottom: 90px;
   padding-top: 90px;
   position: relative;
   color: white;
-  background-color:#1F1F1F;
-  overflow:hidden;
+  background-color: #1F1F1F;
+  overflow: hidden;
   z-index: 1;
 }
 
 .kaufman__triangle {
-  background-image:url(../images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
-  width:877px;
-  height:877px;
+  width: 877px;
+  height: 877px;
   background-repeat: no-repeat;
-  right:-210px;
-  top:0;
+  right: -210px;
+  top: 0;
   background-size: contain;
-  z-index: -1; 
+  z-index: -1;
 }
 
 .table_theme_dark {
   color: white;
-  z-index:5;
+  z-index: 5;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  line-height:1.2;
-  font-size:18px;
+  line-height: 1.2;
+  font-size: 18px;
   margin-top: 80px;
 }
 
 .footer {
-  background-color:#1F1F1F;
+  background-color: #1F1F1F;
   min-height: 350px;
   color: #fff;
   padding-top: 60px;
@@ -288,10 +287,10 @@
 }
 
 .logo_place_footer {
-  width:183px;
-  height:35px;
-  left:0;
-  top:0;
+  width: 183px;
+  height: 35px;
+  left: 0;
+  top: 0;
 }
 
 .footer__author {
@@ -316,12 +315,12 @@
   font-weight: normal;
   margin-bottom: 16px;
   flex-direction: column;
-  color:#fff;
+  color: #fff;
   list-style: none;
 }
 
 .footer__column-link {
-  color:#fff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -330,5 +329,3 @@
   height: 16px;
   margin-right: 10px;
 }
-
-
