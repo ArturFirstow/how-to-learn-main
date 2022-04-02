@@ -40,6 +40,7 @@
   line-height: 96px;
   font-size: 102px;
   align-self: center;
+  z-index: 10;
 }
 
 .header__subtitle {
@@ -52,6 +53,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 5;
 }
 
 .header__link::after {
@@ -334,7 +336,6 @@
   flex-direction: column;
   color: #fff;
   list-style: none;
-  border: 1px solid red;
   padding: 0;
 }
 
