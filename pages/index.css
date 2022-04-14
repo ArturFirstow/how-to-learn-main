@@ -47,7 +47,6 @@
 /*table*/
 
 @import url(../Blocks/table/table.css);
-@import url(../Blocks/table/_theme/table_theme_dark.css);
 @import url(../Blocks/table/__text/table__text.css);
 @import url(../Blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../Blocks/table/__heading/table__heading.css);
