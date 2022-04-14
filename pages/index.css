@@ -17,8 +17,8 @@
 /*logo*/
 
 @import url(../Blocks/logo/logo.css);
-@import url(../Blocks/logo/__place/logo_place_header.css);
-@import url(../Blocks/logo/__place/logo_place_footer.css);
+@import url(../Blocks/logo/__place/logo__place_header.css);
+@import url(../Blocks/logo/__place/logo__place_footer.css);
 
 /* section-title */
 
@@ -121,9 +121,9 @@
 @import url(../Blocks/footer/__list-item/footer__list-item.css);
 @import url(../Blocks/footer/__columns/footer__columns.css);
 @import url(../Blocks/footer/__column/footer__column.css);
-@import url(../Blocks/footer/__column/content/footer__column_content_copyright.css);
-@import url(../Blocks/footer/__column/content/footer__column_content_info.css);
-@import url(../Blocks/footer/__column/content/footer__column_content_social.css);
+@import url(../Blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../Blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../Blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../Blocks/footer/__column-links/footer__column-links.css);
 @import url(../Blocks/footer/__column-link/footer__column-link.css);
 @import url(../Blocks/footer/__column-heading/footer__column-heading.css);
